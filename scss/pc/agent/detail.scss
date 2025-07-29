@@ -1,0 +1,376 @@
+#pc-wrap {
+	.agent-detail-page {
+		position: relative;
+		padding: 133px 0 75px;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		// justify-content: center;
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.agent-wrapper {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				.left {
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					// justify-content: center;
+					// align-items: center;
+					width: 400px;
+					height: 550px;
+					box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+					border-radius: 10px;
+					.img-wrapper {
+						position: relative;
+						width: 400px;
+						height: 200px;
+						border-radius: 10px 10px 0px 0px;
+						.agent-img {
+							position: absolute;
+							bottom: -10%;
+							left: 10px;
+							width: 100px;
+							height: 100px;
+							border-radius: 50%;
+							object-fit: cover;
+							cursor: pointer;
+						}
+						.agent-info {
+							padding: 10px 12px;
+							background: rgba(255, 255, 255, 0.8);
+							position: absolute;
+							top: 150px;
+							right: 5px;
+							display: flex;
+							flex-direction: row;
+							align-items: center;
+							justify-content: space-between;
+							color: #181a20;
+							border-radius: 15px;
+							.agent-name {
+								margin-right: 10px;
+								cursor: pointer;
+							}
+							.agent-type {
+								margin-right: 8px;
+							}
+							.agent-phone {
+								max-width: 105px;
+								text-decoration: underline;
+							}
+						}
+					}
+
+					.agent-stats {
+						display: flex;
+						flex-direction: row;
+						justify-content: space-between;
+						margin-top: 50px;
+						padding-right: 10px;
+						padding-left: 10px;
+						padding-bottom: 30px;
+						border-bottom: 1px solid black;
+						.agent-stats-inner {
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							align-items: center;
+							.agent-stats-number {
+								font-size: 15px;
+								font-weight: 600;
+								color: #181a20;
+								margin-bottom: 5px;
+							}
+							.agent-stats-txt {
+								font-size: 15px;
+								color: #818181;
+							}
+						}
+					}
+					.agent-desc-wrapper {
+						margin-top: 20px;
+						.agent-desc {
+							text-align: center;
+							height: 200px;
+							overflow: hidden;
+						}
+					}
+				}
+				.right {
+					margin-left: 50px;
+					width: 850px;
+					display: flex;
+					flex-direction: column;
+
+					.right-top {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						justify-content: space-between;
+						margin-bottom: 30px;
+
+						.buttons {
+							display: flex;
+							flex-direction: row;
+							align-items: center;
+
+							.right-top-btn {
+								font-size: 16px;
+								text-transform: uppercase;
+								margin-right: 20px;
+								padding-top: 0;
+								background-color: transparent;
+								border: none;
+								cursor: pointer;
+								color: #333;
+
+								&:hover {
+									color: #555;
+								}
+
+								&.active {
+									font-weight: bold;
+									color: #f97316;
+									border-bottom: 2px solid #f97316;
+								}
+							}
+						}
+
+						.follow-btn {
+							font-size: 14px;
+							padding: 10px 25px;
+							background-color: #f97316;
+							color: #ffffff;
+						}
+					}
+
+					.agent-properties,
+					.agent-articles {
+						display: flex;
+						flex-direction: row;
+						flex-wrap: wrap;
+
+						.wrap-main {
+							width: 425px;
+							display: flex;
+							flex-direction: row;
+							flex-wrap: wrap;
+						}
+						.pagination {
+							width: 800px;
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+							justify-content: center;
+							margin-right: auto;
+							margin-left: auto;
+							span {
+								margin-top: 20px;
+								color: #181a20;
+								font-family: $font;
+								font-size: 14px;
+								font-style: normal;
+								font-weight: 400;
+								line-height: 26px;
+							}
+						}
+					}
+				}
+			}
+			.review-box {
+				position: relative;
+				margin-top: 75px;
+				padding: 58px 19px;
+				width: 95%;
+				height: auto;
+				border-radius: 24px;
+				background: #f6f6f6;
+				.main-intro {
+					display: flex;
+					flex-direction: column;
+					span {
+						color: #181a20;
+						font-family: $font;
+						font-size: 30px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: normal;
+						letter-spacing: 0.6px;
+						text-transform: capitalize;
+					}
+					p {
+						color: #181a20;
+						font-family: $font;
+						font-size: 14px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 26px;
+					}
+				}
+				.review-wrap {
+					padding: 29px 25px;
+					margin-top: 57px;
+					display: flex;
+					flex-direction: column;
+					border-radius: 12px;
+					background: #fff;
+					box-shadow: 0px 1px 4px 0px rgba(24, 26, 32, 0.07);
+					.title-box {
+						svg {
+							width: 10px;
+							height: 10px;
+						}
+						span {
+							margin-left: 8px;
+							color: #181a20;
+							font-family: $font;
+							font-size: 17px;
+							font-style: normal;
+							font-weight: 600;
+							line-height: normal;
+						}
+					}
+					.review-card {
+						margin-top: 20px;
+						display: flex;
+						flex-direction: column;
+						padding-bottom: 10px;
+						border-bottom: 1px solid #c4c4c4;
+						.info {
+							display: flex;
+							flex-direction: row;
+							justify-content: space-between;
+							.left {
+								display: flex;
+								flex-direction: row;
+								img {
+									width: 55px;
+									height: 59px;
+									border-radius: 50%;
+									object-fit: cover;
+								}
+								div {
+									margin-left: 8px;
+									display: flex;
+									flex-direction: column;
+									strong {
+										color: #181a20;
+										font-family: $font;
+										font-size: 15px;
+										font-style: normal;
+										font-weight: 600;
+										line-height: normal;
+									}
+									span {
+										margin-top: 4px;
+										color: #181a20;
+										font-family: $font;
+										font-size: 13px;
+										font-style: normal;
+										font-weight: 400;
+										line-height: normal;
+									}
+								}
+							}
+							.right {
+								display: flex;
+								flex-direction: row;
+								svg {
+									color: #edf023;
+								}
+							}
+						}
+						p {
+							margin-top: 10px;
+							color: #181a20;
+							font-family: $font;
+							font-size: 14px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: 26px;
+						}
+					}
+					.pagination-box {
+						margin-top: 15px;
+						width: 100%;
+						height: auto;
+						display: flex;
+						justify-content: center;
+					}
+				}
+				.leave-review-config {
+					margin-top: 15px;
+					border-radius: 12px;
+					background: #fff;
+					box-shadow: 0px 1px 4px 0px rgba(24, 26, 32, 0.07);
+					padding: 30px 38px;
+					.main-title {
+						color: #181a20;
+						font-family: $font;
+						font-size: 17px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: normal;
+					}
+					.review-title {
+						margin-top: 20px;
+						color: #181a20;
+						font-family: $font;
+						font-size: 14px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: normal;
+					}
+					textarea {
+						width: 100%;
+						height: 120px;
+						margin-top: 8px;
+						padding: 20px;
+						border-radius: 8px;
+						border: 1px solid #ddd;
+						color: #717171;
+						font-family: $font;
+						font-size: 14px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 26px;
+					}
+					.submit-btn {
+						width: 100%;
+						display: flex;
+						justify-content: flex-end;
+						button:disabled {
+							background: #dfdfdf;
+						}
+						.submit-review {
+							display: flex;
+							width: 256px;
+							margin-top: 30px;
+							padding: 16px 30px;
+							justify-content: center;
+							align-items: center;
+							gap: 10px;
+							border-radius: 12px;
+							border: 1px solid #c4c4c4;
+							cursor: pointer;
+							.title {
+								color: #181a20;
+								font-family: $font;
+								font-size: 15px;
+								font-style: normal;
+								font-weight: 600;
+								line-height: normal;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,146 @@
+#pc-wrap {
+	#member-articles-page {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.main-title-box {
+			width: auto;
+			height: auto;
+			flex-direction: row;
+			justify-content: space-between;
+			align-self: flex-start;
+			.right-box {
+				width: 315px;
+				.main-title {
+					color: #181a20;
+					font-family: $font;
+					font-size: 30px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+					letter-spacing: 0.6px;
+					text-transform: capitalize;
+				}
+			}
+		}
+		.articles-list-box {
+			width: 100%;
+			height: auto;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 25px;
+			margin-top: 85px;
+			.no-data {
+				width: 100%;
+			}
+			.community-general-card-config {
+				position: relative;
+				width: 310px;
+				height: auto;
+				gap: 20px;
+				border-radius: 12px;
+				cursor: pointer;
+				.image-box {
+					width: 100%;
+					height: 283px;
+					.card-img {
+						width: 100%;
+						height: 100%;
+						border-radius: 12px;
+					}
+				}
+				.desc-box {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: center;
+					width: 100%;
+					height: 80px;
+					padding-top: 10px;
+					padding-left: 15px;
+					padding-right: 15px;
+					.title {
+						color: #717171;
+						font-family: $font;
+						font-size: 13px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+					.desc {
+						color: #181a20;
+						font-family: $font;
+						font-size: 15px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: 26px;
+						text-transform: capitalize;
+					}
+					.buttons {
+						width: auto;
+						display: flex;
+						flex-direction: row;
+						justify-content: center;
+						align-items: center;
+						svg {
+							width: 24px;
+							height: 24px;
+							cursor: pointer;
+						}
+						.view-cnt {
+							font-size: 13px;
+						}
+					}
+				}
+				.date-box {
+					position: absolute;
+					width: 70px;
+					height: 69.014px;
+					align-items: center;
+					justify-content: center;
+					top: 235px;
+					right: 20px;
+					border-radius: 12px;
+					background: #fff;
+					box-shadow: 0px 6px 15px 0px rgba(64, 79, 104, 0.05);
+					.month {
+						color: #181a20;
+						text-align: center;
+						font-family: $font;
+						font-size: 13px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+					.day {
+						color: #181a20;
+						font-family: $font;
+						font-size: 20px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: normal;
+					}
+				}
+			}
+		}
+		.pagination-config {
+			width: 100%;
+			height: auto;
+			justify-content: center;
+			align-items: center;
+			margin-top: 30px;
+			.total-result {
+				p {
+					color: #181a20;
+					text-align: center;
+					font-family: $font;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 26px;
+				}
+			}
+		}
+	}
+}

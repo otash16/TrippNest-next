@@ -1,0 +1,15 @@
+export enum FaqCategory {
+	PROPERTY = 'PROPERTY',
+	PAYMENT = 'PAYMENT',
+	BUYER = 'BUYER',
+	AGENTS = 'AGENTS',
+	MEMBERSHIP = 'MEMBERSHIP',
+	COMMUNITY = 'COMMUNITY',
+	OTHER = 'OTHER',
+}
+
+export enum FaqStatus {
+	BLOCKED = 'BLOCKED',
+	ACTIVE = 'ACTIVE',
+	DELETE = 'DELETE',
+}
