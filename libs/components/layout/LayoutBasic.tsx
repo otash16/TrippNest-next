@@ -29,29 +29,29 @@ const withLayoutBasic = (Component: any) => {
 
 			switch (router.pathname) {
 				case '/property':
-					title = 'Destination Search';
-					desc = 'We are glad to see you again!';
-					bgImage = '/img/banner/destination.webp';
+					title = 'Find Your Next Destination';
+					desc = 'Great to have you with us again!';
+					bgImage = '/img/banner/cities/WASHINGTON.webp';
 					break;
 				case '/agent':
 					title = 'Agents';
-					desc = 'Home / Destinations / Popular Spots';
-					bgImage = '/img/banner/agents.jpg';
+					desc = 'Your Go-To Property Experts';
+					bgImage = '/img/banner/cities/CHICAGO.webp';
 					break;
 				case '/agent/detail':
 					title = 'Agent Page';
 					desc = 'Home / Destinations / Popular Spots';
-					bgImage = '/img/banner/destination1.jpg';
+					bgImage = '/img/banner/cities/BOSTON.webp';
 					break;
 				case '/mypage':
 					title = 'my page';
 					desc = 'Home / For Rent';
-					bgImage = '/img/banner/namsan.webp';
+					bgImage = '/img/banner/cities/BOSTON.webp';
 					break;
 				case '/community':
 					title = 'Community';
 					desc = 'Home / For Rent';
-					bgImage = '/img/banner/header2.jpg';
+					bgImage = '/img/banner/cities/WASHINGTON.webp';
 					break;
 				case '/community/detail':
 					title = 'Community Detail';
@@ -61,7 +61,7 @@ const withLayoutBasic = (Component: any) => {
 				case '/cs':
 					title = 'CS';
 					desc = 'We are glad to see you again!';
-					bgImage = '/img/banner/header2.jpg';
+					bgImage = '/img/banner/cities/BOSTON.webp';
 					break;
 				case '/account/join':
 					title = 'Login/Signup';

@@ -110,7 +110,7 @@ const TrendProperties = (props: TrendPropertiesProps) => {
 			<Stack className={'trend-properties'}>
 				<Stack className={'container'}>
 					<Stack className={'info-box'}>
-						<span>Liked & Loved</span>
+						<span>Hearted by Many</span>
 					</Stack>
 					<Stack className={'wrapper'}>
 						<Box component={'div'} className={'card-wrapper'}>
@@ -164,8 +164,8 @@ const TrendProperties = (props: TrendPropertiesProps) => {
 				<Stack className={'container'}>
 					<Stack className={'info-box'}>
 						<Box component={'div'} className={'left'}>
-							<span>Liked & Loved</span>
-							<p>A casual, friendly option suggesting users love these places</p>
+							<span>Hearted by Many</span>
+							<p>Loved by the Community</p>
 						</Box>
 						<Box component={'div'} className={'right'}>
 							<div className={'more-box'}>

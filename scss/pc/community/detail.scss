@@ -2,6 +2,7 @@
 	#community-detail-page {
 		position: relative;
 		padding-bottom: 135px;
+		background: rgb(21, 21, 47);
 		.container {
 			padding-top: 100px;
 			flex-direction: column;
@@ -33,6 +34,7 @@
 							.name {
 								margin-top: 15px;
 								color: #181a20;
+								
 								font-family: $font;
 								font-size: 15px;
 								font-style: normal;
@@ -88,7 +90,8 @@
 							width: 60%;
 							height: auto;
 							.title {
-								color: #000;
+								// color: #000;
+								color: white;
 								font-family: $font;
 								font-size: 24px;
 								font-style: normal;
@@ -97,7 +100,8 @@
 								letter-spacing: 0.24px;
 							}
 							.sub-title {
-								color: #757575;
+								// color: #757575;
+								color: white;
 								font-family: $font;
 								font-size: 13px;
 								font-style: normal;
@@ -137,7 +141,8 @@
 								.content {
 									gap: 12px;
 									.content-data {
-										color: #000;
+										// color: #000;
+										color: white;
 										font-family: $font;
 										font-size: 18px;
 										font-style: normal;
@@ -172,7 +177,7 @@
 											background: #eee;
 										}
 										.time-added {
-											color: #bdbdbd;
+											color: white;
 											font-family: $font;
 											font-size: 12px;
 											font-style: normal;

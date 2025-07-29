@@ -76,7 +76,7 @@ const TopAgents = (props: TopAgentsProps) => {
 					<Stack className={'info-box'}>
 						<Box component={'div'} className={'left'}>
 							<span>Top Agents</span>
-							<p>Our Top Agents always ready to serve you</p>
+							<p>Trusted agents, ready to assist anytime</p>
 						</Box>
 						<Box component={'div'} className={'right'}>
 							<div className={'more-box'}>

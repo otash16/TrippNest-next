@@ -73,7 +73,7 @@ const TopProperties = (props: TopPropertiesProps) => {
 					<Stack className={'info-box'}>
 						<Box component={'div'} className={'left'}>
 							<span>Top Destinations</span>
-							<p>Check out our Top Destinations</p>
+							<p>Discover the Best Places to Visit</p>
 						</Box>
 					</Stack>
 					<Stack className={'card-box'}>

@@ -52,11 +52,11 @@ export default function FiberContainer() {
 			<h1 className="top-title">
 				{/* Render using React safely */}
 				<span
-					dangerouslySetInnerHTML={{ __html: t('Discover Seoul’s Ultimate Destinations <br /> for Your Next Getaway') }}
+					dangerouslySetInnerHTML={{ __html: t('Explore the top places to visit in America for your perfect escape') }}
 				/>
 			</h1>
 			<h3 className="top-subtitle">
-				{t('Uncover hidden gems and iconic spots in every part of Seoul, tailored for every traveler')}
+				{t('Iconic sites and hidden gems across America, designed for every traveler.')}
 			</h3>
 		</div>
 	);

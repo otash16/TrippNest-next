@@ -287,8 +287,8 @@ const PropertyList: NextPage = ({ initialInput, ...props }: any) => {
 					<div className="product-page-top">
 						<div className="top-btn-wrapper">
 							<button className="top-btn">
-								<img className={'top-btn-icon'} src="/img/icons/propertTypes/all.svg" alt="All" />
-								<span
+								{/* <img className={'top-btn-icon'} src="/img/icons/propertTypes/all.svg" alt="All" /> */}
+								{/* <span
 									id={'all'}
 									className={`top-btn-txt ${selectedType === 'all' ? 'selected' : ''}`}
 									onClick={sortingTypeHandler}
@@ -317,7 +317,7 @@ const PropertyList: NextPage = ({ initialInput, ...props }: any) => {
 									className={`top-btn-txt ${selectedType === 'countryside' ? 'selected' : ''}`}
 									onClick={sortingTypeHandler}
 								>
-									Countryside
+									Countryside1
 								</span>
 							</button>
 						</div>
@@ -402,8 +402,8 @@ const PropertyList: NextPage = ({ initialInput, ...props }: any) => {
 									onClick={sortingTypeHandler}
 								>
 									Play
-								</span>
-							</button>
+								</span> */}
+							{/* </button>
 						</div>
 						<div className="top-btn-wrapper">
 							<button className="top-btn">
@@ -414,7 +414,7 @@ const PropertyList: NextPage = ({ initialInput, ...props }: any) => {
 									onClick={sortingTypeHandler}
 								>
 									Luxe
-								</span>
+								</span> */}
 							</button>
 						</div>
 					</div>

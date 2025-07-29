@@ -95,7 +95,7 @@ const PopularProperties = (props: PopularPropertiesProps) => {
 					<Stack className={'info-box'}>
 						<Box component={'div'} className={'left'}>
 							<span>Popular destinations</span>
-							<p>Popularity ranked by views</p>
+							<p>Most Viewed Rankings</p>
 						</Box>
 					</Stack>
 					<Stack className={'card-box'}>

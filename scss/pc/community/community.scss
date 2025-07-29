@@ -1,6 +1,7 @@
 #pc-wrap {
 	#community-list-page {
 		position: relative;
+		background: rgb(21, 21, 47);
 		.container {
 			padding-top: 100px;
 			flex-direction: column;
@@ -35,7 +36,7 @@
 						.community-name {
 							.name {
 								// margin-top: 15px;
-								color: #181a20;
+								color: white;
 								font-family: $font;
 								font-size: 28px;
 								font-style: normal;
@@ -54,7 +55,8 @@
 							justify-content: center;
 							align-items: center;
 							margin-bottom: 10px;
-							color: #181a20;
+							// color: #181a20;
+							color: white;
 							font-family: $font;
 							font-size: 18px;
 							font-style: normal;
@@ -104,7 +106,8 @@
 								margin-right: auto;
 								margin-left: auto;
 								.title {
-									color: #000;
+									// color: #000;
+									color: white;
 									font-family: $font;
 									font-size: 24px;
 									font-style: normal;
@@ -113,7 +116,8 @@
 									letter-spacing: 0.24px;
 								}
 								.sub-title {
-									color: #757575;
+									// color: #757575;
+									color: white;
 									font-family: $font;
 									font-size: 13px;
 									font-style: normal;
@@ -155,7 +159,8 @@
 				border: 1px solid #c4c4c4;
 				.similar-articles-title {
 					padding-left: 56px;
-					color: #000;
+					// color: #000;
+					color: white;
 					font-family: $font;
 					font-size: 30px;
 					font-style: normal;
@@ -182,7 +187,8 @@
 				}
 				.total-result {
 					p {
-						color: #181a20;
+						// color: #181a20;
+						color: white;
 						text-align: center;
 						font-family: $font;
 						font-size: 14px;

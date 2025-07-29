@@ -85,8 +85,8 @@ const NewProperties = () => {
 				<Stack className={'container'}>
 					<Stack className={'info-box'}>
 						<Box component={'div'} className={'left'}>
-							<span className={'white'}>New Relaxing Destinations in Seoul</span>
-							<p className={'white'}>Explore the newest spots in Seoul for your perfect getaway!</p>
+							<span className={'white'}>America's Latest Havens for Relaxation</span>
+							<p className={'white'}>Explore trending getaway locations all over America!</p>
 						</Box>
 					</Stack>
 					<Stack className={'card-wrapper'}>

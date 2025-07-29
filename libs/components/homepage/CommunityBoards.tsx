@@ -67,7 +67,7 @@ const BoardArticles = (props: BoardArticlesProps) => {
 			<Stack className={'board-articles'}>
 				<Stack className={'container'}>
 					<Stack className={'info-box'}>
-						<span>Most Read Articles</span>
+						<span>Hot Topics</span>
 					</Stack>
 					<Stack className={'card-box'}>
 						{boardArticles.map((article: BoardArticle) => {
@@ -87,8 +87,8 @@ const BoardArticles = (props: BoardArticlesProps) => {
 				<Stack className={'container'}>
 					<Stack className={'info-box'}>
 						<Box component={'div'} className={'left'}>
-							<span>Most Read Articles</span>
-							<p>Stay updated with the most popular reads</p>
+							<span>Hot Topics</span>
+							<p>Be informed with the hottest articles</p>
 						</Box>
 					</Stack>
 					<Stack className={'card-box'}>
