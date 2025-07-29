@@ -20,7 +20,7 @@ const Footer = () => {
 								<img src="/img/logo/logo.svg" alt="" />
 							</Link>
 							<Link href={'/'}>
-								<div className="logo-text">EaseUp</div>
+								<div className="logo-text">TripNest</div>
 							</Link>
 						</Box>
 						<Box component={'div'} className={'footer-box'}>
@@ -84,7 +84,7 @@ const Footer = () => {
 									<img src="/img/logo/logo.svg" alt="" />
 								</Link>
 								<Link href={'/'}>
-									<div className="logo-text">EaseUp</div>
+									<div className="logo-text">TripNest</div>
 								</Link>
 							</div>
 						</Box>
@@ -141,7 +141,7 @@ const Footer = () => {
 					</Stack>
 				</Stack>
 				<Stack className={'second'}>
-					<span>© EaseUp - All rights reserved. EaseUp{moment().year()}</span>
+					<span>© TripNest - All rights reserved. TripNest{moment().year()}</span>
 					<span>Privacy · Terms · Sitemap</span>
 				</Stack>
 			</Stack>

@@ -571,12 +571,12 @@ HeaderFilter.defaultProps = {
 		limit: 9,
 		search: {
 			guestsRange: {
-				start: 0,
-				end: 50,
+				start: 1,
+				end: 500,
 			},
 			pricesRange: {
-				start: 0,
-				end: 2000000,
+				start: 1,
+				end: 20000000000,
 			},
 		},
 	},

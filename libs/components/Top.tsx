@@ -176,7 +176,7 @@ const Top = () => {
 								<img src="/img/logo/logo.svg" alt="" />
 							</Link>
 							<Link href={'/'}>
-								<div className="logo-text">EaseUp</div>
+								<div className="logo-text">TripNest</div>
 							</Link>
 						</Box>
 						<Box component={'div'} className={'router-box'}>
