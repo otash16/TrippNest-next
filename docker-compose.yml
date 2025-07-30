@@ -1,6 +1,6 @@
 services:
   easeUp-next:
-    container_name: easeUp-next
+    container_name: TripNest-next
     restart: always
     image: node:20.10.0
     ports:
@@ -9,8 +9,8 @@ services:
       - PORT=3000
 
     volumes:
-      - ./:/usr/src/easeUp-next
-    working_dir: /usr/src/easeUp-next
+      - ./:/usr/src/TripNest-next
+    working_dir: /usr/src/TripNest-next
     networks:
       - client-network
 

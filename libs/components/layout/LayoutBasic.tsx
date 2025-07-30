@@ -105,7 +105,7 @@ const withLayoutBasic = (Component: any) => {
 							<Component {...props} />
 						</Stack>
 
-						<Stack id={'footer'}>
+						<Stack id={''}>
 							<Footer />
 						</Stack>
 					</Stack>

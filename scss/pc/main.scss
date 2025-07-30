@@ -1048,7 +1048,8 @@ body::-webkit-scrollbar {
 		height: auto;
 		display: flex;
 		flex-direction: row;
-		background: hsl(215, 56%, 50%);
+		// background: hsl(215, 56%, 50%);
+		background: rgb(21, 21, 47);
 		.footer-container {
 			width: 1300px;
 			height: auto;
