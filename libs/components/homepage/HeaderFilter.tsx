@@ -575,7 +575,7 @@ HeaderFilter.defaultProps = {
 				end: 500,
 			},
 			pricesRange: {
-				start: 1,
+				start: 10,
 				end: 2000,
 			},
 		},

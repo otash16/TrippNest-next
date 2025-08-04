@@ -170,10 +170,10 @@ const PropertyList: NextPage = ({ initialInput, ...props }: any) => {
 					});
 					// setFilterSortName('Countryside');
 					break;
-				case 'hanok':
+				case 'gardens':
 					setSearchFilter({
 						...searchFilter,
-						search: { ...searchFilter.search, typeList: [PropertyType.HANOKS] },
+						search: { ...searchFilter.search, typeList: [PropertyType.GARDENS] },
 						direction: Direction.ASC,
 					});
 					// setFilterSortName('Hanok');
@@ -287,7 +287,7 @@ const PropertyList: NextPage = ({ initialInput, ...props }: any) => {
 					<div className="product-page-top">
 						<div className="top-btn-wrapper">
 							<button className="top-btn">
-								{/* <img className={'top-btn-icon'} src="/img/icons/propertTypes/all.svg" alt="All" /> */}
+								{/* { <img className={'top-btn-icon'} src="/img/icons/propertTypes/all.svg" alt="All" />} */}
 								{/* <span
 									id={'all'}
 									className={`top-btn-txt ${selectedType === 'all' ? 'selected' : ''}`}
