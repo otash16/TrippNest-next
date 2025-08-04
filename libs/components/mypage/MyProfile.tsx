@@ -99,8 +99,7 @@ const MyProfile: NextPage = ({ initialValues, ...props }: any) => {
 		if (
 			updateData.memberNick === '' ||
 			updateData.memberPhone === '' ||
-			updateData.memberAddress === '' ||
-			updateData.memberImage === ''
+			updateData.memberAddress === ''
 		) {
 			return true;
 		}
