@@ -27,7 +27,6 @@ const MyProfile: NextPage = ({ initialValues, ...props }: any) => {
 			memberNick: user.memberNick,
 			memberPhone: user.memberPhone,
 			memberAddress: user.memberAddress,
-			memberImage: user.memberImage,
 		});
 	}, [user]);
 
