@@ -24,11 +24,14 @@ const MyProfile: NextPage = ({ initialValues, ...props }: any) => {
 	useEffect(() => {
 		setUpdateData({
 			...updateData,
-			memberNick: user.memberNick,
-			memberPhone: user.memberPhone,
-			memberAddress: user.memberAddress,
+			// memberNick: user.memberNick,
+			// memberPhone: user.memberPhone,
+			// memberAddress: user.memberAddress,
+			memberImage: user.memberImage
 		});
 	}, [user]);
+	   
+
 
 	/** HANDLERS **/
 	const uploadImage = async (e: any) => {
@@ -97,13 +100,16 @@ const MyProfile: NextPage = ({ initialValues, ...props }: any) => {
 
 	const doDisabledCheck = () => {
 		if (
-			updateData.memberNick === '' ||
-			updateData.memberPhone === '' ||
-			updateData.memberAddress === ''
+			// updateData.memberNick === '' ||
+			// updateData.memberPhone === '' ||
+			// updateData.memberAddress === '' ||
+			updateData.memberImage === ' '
 		) {
 			return true;
 		}
+
 	};
+
 
 	console.log('+updateData', updateData);
 
